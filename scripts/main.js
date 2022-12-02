@@ -83,7 +83,7 @@ $(document).ready(function(){
         else return (parseInt(timeago / 86400)).toString() + ' days ago';
         }
 
-    $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=52.4829135447651&lon=-1.74412261766486&units=metric&appid=547ea9544998a84d1915c744013696e3", function(result){
+    $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=52.4829135447651&lon=-1.74412261766486&units=metric&appid=*Your App ID", function(result){
         var myObj = result;
         $("#location").text(myObj.name);
         $("#condition").text(myObj.weather[0].main);
