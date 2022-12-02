@@ -1,7 +1,7 @@
 <?php
 
-$app_key = 'S27BpIcvtn1SsxmXZTgQZni5S';
-$app_token = 'LggbS8NEixfLvN3g8AY4MGgRCsqoeE7Eocp1IXvDuB8B7pDfyO';
+$app_key = 'Your App Key';
+$app_token = 'Your App Token';
 
 //These are our constants.
 $api_base = 'https://api.twitter.com/';
