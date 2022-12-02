@@ -62,7 +62,7 @@ echo '</ul></div>
 
 
 echo '<!--note how the script is at the bottom of the page as it has to wait for the DOM to load before any of the map functionality can be applied-->	
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBnZiB7DCWYZe7xYPuq4_wp0hqllL3cwGA&callback=initMap" async defer></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=YourKey&callback=initMap" async defer></script>
 
 </body></html>';
 
