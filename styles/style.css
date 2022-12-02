@@ -1,0 +1,102 @@
+#map {
+    height: 40vh;
+  }
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font: 75%/120% Arial, Helvetica, sans-serif;
+    background-color: #d3d3d3;
+}
+
+main {
+    width: 98%;
+    background-color: #fff !important;
+    margin: auto;
+}
+
+
+span.twitter_profile, span.tweet_content {
+    display: inline-block;
+    padding: 2px;
+}
+span.tweet_content {
+    width: 80%;
+}
+
+ul#tweet_list {
+    list-style-type: none;
+    padding: 1px;
+    margin: auto;
+    height: 35vh;
+    overflow-y: scroll;
+}
+
+ul#tweet_list li {
+    border: 2px solid black;
+    border-radius: 10px;
+    white-space: pre-line;
+}
+
+#refresh {
+    float: right;
+    border-radius: 5px;
+}
+
+h2#tweets_title {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 1px;
+}
+
+.tweets_container {
+    display: block;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 30%;
+    float: left;
+}
+
+.weather {
+    float: right;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 1px;
+    width: 20%;
+    margin: auto;
+    height: 35vh;
+    overflow-y: scroll;
+}
+
+.map-container {
+    padding: 1%;
+    margin: auto;
+}
+
+.login_container {
+    float: right;
+    display: block;
+}
+
+.top {
+    overflow: hidden;
+  background-color: #333;
+}
+
+.top a {
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .top a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
